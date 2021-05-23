@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      <p>hello this my website XDD</p>
+      <p>currently under development, come back soon!</p>
     </div>
   )
 }

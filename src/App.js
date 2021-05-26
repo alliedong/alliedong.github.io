@@ -1,6 +1,6 @@
 import React from 'react'
 
-const App = () => {
+function App () {
   return (
     <div>
       <p>currently under development, come back soon!</p>

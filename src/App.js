@@ -1,11 +1,21 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './components/formats/Navbar';
+import {BrowserRouter as Router, Switch, Route} from 
+'react-router-dom';
+import './App.css';
+
 
 function App () {
   return (
-    <div>
-      <p>currently under development, come back soon!</p>
-    </div>
-  )
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact />
+        </Switch>
+      </Router>
+    </>
+  );
 }
 
-export default App
+export default App;

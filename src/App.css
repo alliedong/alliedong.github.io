@@ -18,28 +18,35 @@
   font-size: 3rem;
 }
 
-.home {
+.about {
   background-color: #f1f5f8;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   color: #f1f5f8;
   font-size: 100px;
-}
 
-.about {
-  background-color: #f1f5f8;
-  
 }
 
 .projects {
   background-color: #f1f5f8;
+  background-position: center;
+  background-size: cover;
+  color: #f1f5f8;
+  font-size: 100px;
 }
 
 .experience {
   background-color: #f1f5f8;
+  background-position: center;
+  background-size: cover;
+  color: #f1f5f8;
+  font-size: 100px;
 }
 
 .contact {
   background-color: #f1f5f8;
+  background-position: center;
+  background-size: cover;
+  color: #f1f5f8;
+  font-size: 100px;
 }

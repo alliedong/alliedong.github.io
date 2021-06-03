@@ -6,7 +6,7 @@ lightest is #f1f5f8*/
   background: linear-gradient(
     to bottom,
     rgb(14, 39, 62) 0%,
-    rgb(16, 43, 66) 100%
+    rgb(15, 41, 64) 100%
   );
   height: 70px;
   display: flex;
@@ -23,26 +23,19 @@ lightest is #f1f5f8*/
   top: 9px;
   margin-top: 2px;
   margin-left: 1.1rem;
-  width: 65px;
-  height: 65px;
 }
 
-#logo:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-.navbar > h1 {
+/* .navbar > h1 {
   color: #f1f5f8;
   font-size: 35px;
   top: 0;
-}
+} */
 
 .navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 70px;
   max-width: 1500px;
   top: 0;
 }
@@ -150,7 +143,7 @@ lightest is #f1f5f8*/
   .nav-links:hover {
     background-color: #f1f5f8;
     color: #102b42;
-    border-radius: 0px;
+    border-radius: 2px;
   }
 
   .nav-item {

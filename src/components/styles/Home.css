@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+.home-page {
+  background-color: #f1f5f8;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-as-row {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+/* Style Left Column of Header */
+.home {
+  margin-left: 10%;
+  font-size: 80px;
+  font-weight: 700;
+  color: #004e89;
+  font-family: "lato";
+  line-height: 70pt;
+}
+
+.name-typed {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 70pt;
+  font-family: lato;
+}
+
+.home-greeting {
+  margin-left: 12%;
+  margin-top: 25px;
+  font-size: 40px;
+  font-family: "lato";
+}
+
+.resume-button-homepage:hover {
+  background-color: #f1f5f8;
+  color: #102b42;
+  border-radius: 2px;
+}
+
+/* Style Right Column of Header */
+
+.AlliePicture1 {
+  width: 30vw;
+  border-radius: 150px;
+  margin-right: 100px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .home {
+    font-size: 60px;
+    line-height: 70pt;
+  }
+}

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 
-.home-page {
-  background-color: #f1f5f8;
+.home-page-container {
+  background-color: #ddf5fb;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -9,24 +9,26 @@
 .home-as-row {
   padding-top: 90px;
   padding-bottom: 80px;
+  height: 90vh;
 }
 
 /* Style Left Column of Header */
-.home {
+.hello-message {
   margin-left: 10%;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
-  color: #004e89;
+  color: #0e273e;
   font-family: "lato";
-  line-height: 70pt;
+  line-height: 60pt;
 }
 
 .name-typed {
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 70pt;
   font-family: lato;
+  color: #0e273e;
 }
 
 .home-greeting {
@@ -46,9 +48,9 @@
 
 .AlliePicture1 {
   width: 30vw;
+  position: right;
   border-radius: 150px;
   margin-right: 100px;
-  padding-left: 20px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -57,3 +59,4 @@
     line-height: 70pt;
   }
 }
+

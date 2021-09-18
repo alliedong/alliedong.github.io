@@ -2,28 +2,28 @@
 
 .home-page-container {
   background-color: #ddf5fb;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-right: 0px;
+  height: 95vh
 }
 
-/* ddf5fb */
-
 .home-as-row {
-  padding-top: 180px;
-  padding-bottom: 0px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Style Left Column of Header */
 .hello-message {
   margin-left: 15%;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 550;
   color: #102b42;
   font-family: "lato";
-  line-height: 45pt;
+  line-height: 40pt;
 }
 
-.pursuance-typed {
+.program-typed {
   text-align: left;
   margin-left: 7.5%;
   margin-top: 20px;
@@ -53,10 +53,17 @@
 /* Style Right Column of Home */
 
 #AlliePicture1 {
-  width: 40vw;
-  border-radius: 150px;
-  margin-right: 100px;
+  width: 37vw;
   padding-left: 20px;
+}
+
+@media screen and (max-width: 873px) {
+  .home-as-row {
+    flex-direction: column-reverse;
+  }
+  #AlliePicture1 {
+    width: 50vw;
+  }
 }
 
 /* @media screen and (max-width: 1400px) {

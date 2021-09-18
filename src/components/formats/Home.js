@@ -2,6 +2,8 @@ import React from "react";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import AllieHomeImage from "../../images/AllieHomeImage.png";
+import Button from "./Button.js";
+import "../styles/Button.css";
 import "../styles/Home.css";
 
 // xs={8} md={4}
@@ -10,13 +12,13 @@ import "../styles/Home.css";
 function Home() {
   return (
     <Container fluid className="home-page-container">
-      <Row className="home-as-row">
-        <Col xs={8} md={12}>
+      <div className="home-as-row">
+        <div style={{width: '100%'}}>
           <div className="hello-message">
-            <h2>Hi there! I'm Allie :)</h2>
+            <h2>Hi there! I'm Allie </h2>
             <br></br>
-            <h6>Currently pursuing: </h6>
-            <div className="pursuance-typed">
+            <h6>Currently a student pursuing: </h6>
+            <div className="program-typed">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -27,29 +29,29 @@ function Home() {
               />
             </div>
             <div className="home-greeting">
-              Welcome and thanks for visiting!
+              Welcome, and thanks for visiting!
             </div>
             <Row className="resume-button">
-              <button
+              <Button
                 className="resume-button-homepage"
-                buttonStyle="btn--outline"
-                buttonSize="btn--large"
-                href="https://drive.google.com/file/d/1GV-zUtW9k5XxJHCxev_w5ePexCbZqa7x/view?usp=sharing"
+                buttonStyle="btn--primary"
+                resume="https://drive.google.com/file/d/1GV-zUtW9k5XxJHCxev_w5ePexCbZqa7x/view?usp=sharing"
                 target="_blank"
               >
                 Resume
-              </button>
+              </Button>
             </Row>
           </div>
-        </Col>
-        <Col xs={4} md={8}>
+        </div>
+        <div style={{textAlign: 'center'}}>
           <Image
             id="AlliePicture1"
             src={AllieHomeImage}
             alt="Personal profile design"
+            style={{marginRight: '60px'}}
           />
-        </Col>
-      </Row>
+        </div>
+      </div>
     </Container>
   );
 }

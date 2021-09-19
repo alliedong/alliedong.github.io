@@ -31,7 +31,7 @@ function Cards(props) {
               src="../../images/extendyourhorizonsprojectgraphic.png"
               text="A practical chrome extension consisting of four features: a Pomodoro timer,
                 a to-do list, a customizable website blocker, and an inspirational quote generator. 
-                Goal is to help students with productivity, etticiency, and mental wellness."
+                Goal is to help students with productivity, efficiency, and mental wellness."
               label="Extend Your Horizons: Design, Development, PM"
               path="https://devpost.com/software/extend-your-horizons"
             />

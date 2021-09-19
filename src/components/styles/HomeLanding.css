@@ -2,9 +2,9 @@
 
 .home-page-container {
   background-color: #ddf5fb;
-  padding-left: 25px;
+  padding-left: 30px;
   padding-right: 0px;
-  height: 95vh
+  height: 43vw;
 }
 
 .home-as-row {
@@ -20,7 +20,7 @@
   font-weight: 550;
   color: #102b42;
   font-family: "lato";
-  line-height: 40pt;
+  line-height: 38pt;
 }
 
 .program-typed {
@@ -35,26 +35,27 @@
 }
 
 .home-greeting {
-  margin-top: 18px;
+  margin-top: 1.5vw;
   font-size: 25px;
   font-family: "lato";
 }
 
 .resume-button {
   align-items: center;
+  margin-top: 8px;
 }
 
 .resume-button-homepage:hover {
   background-color: #f1f5f8;
   color: #102b42;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
-/* Style Right Column of Home */
+/* Style Right Column of Home Landing */
 
 #AlliePicture1 {
-  width: 37vw;
-  padding-left: 20px;
+  width: 36vw;
+  padding-left: 15px;
 }
 
 @media screen and (max-width: 873px) {

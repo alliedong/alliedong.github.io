@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import Allie_Logo from "../../images/Allie_Logo.png";
 import "../styles/Navbar.css";
 import { Link } from 'react-router-dom'
-import {Button} from './Button';
 
 function Navbar() {
   const [click, setClick] = useState(false);

@@ -1,14 +1,15 @@
 import React from "react";
-import Home from "../formats/Home.js";
-import Navbar from "../formats/Navbar";
-import "../styles/Home.css";
+import HomeLanding from "../formats/HomeLanding";
+import Cards from "../formats/Cards";
+import "../formats/Cards";
+import "../styles/HomeLanding.css";
 import "../styles/Button.css";
 
 function MainSite() {
   return (
     <>
-      <Navbar />
-      <Home />
+      <HomeLanding />
+      <Cards />
     </>
   );
 }

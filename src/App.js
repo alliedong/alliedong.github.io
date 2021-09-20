@@ -12,8 +12,9 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <MainSite />
         <Switch>
-          <Route path="/" exact component={MainSite} />
+          {/* <Route path="/" exact component={MainSite} /> */}
           <Route path="/*" element={<Error404 />} />
         </Switch>
       </Router>

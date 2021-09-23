@@ -9,7 +9,7 @@ function SingleCard(props) {
           <img
             className='cards__item__img'
             alt="Project Graphics"
-            src={props.arc}
+            src={props.src}
           />
         </figure>
         <div>

@@ -13,7 +13,7 @@ function HomeLanding() {
           <div className="hello-message">
             <h2>Hi there! I'm Allie</h2>
             <br></br>
-            <h6>Currently a UWaterloo student pursuing </h6>
+            <h6>First-year UWaterloo student pursuing</h6>
             <div className="program-typed">
               <Typewriter
                 onInit={(typewriter) => {

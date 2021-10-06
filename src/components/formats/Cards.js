@@ -20,7 +20,7 @@ function Cards(props) {
               Other features include recipeas, coupons and saved grocery lists.
               SplitPeas: Save Food. Save Money. Save Time. Submitted to TU20 Cup."
               label="SplitPeas: UX Design, PM"
-              path="https://bit.ly/3Ctr8xQ"
+              path="https://www.figma.com/file/qIgUOwU2WiTzeZCCOc0H8k/split-peas-designs-Copy?node-id=0%3A1"
             />
             <SingleCard
               src={sportipaws}

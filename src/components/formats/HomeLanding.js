@@ -31,7 +31,7 @@ function HomeLanding() {
               <Button
                 className="resume-button-homepage"
                 buttonStyle="btn--primary"
-                resume="https://drive.google.com/file/d/1U2k4FzDzA6BoGseON8oC_ZOcbdAsiJvl/view?usp=sharing"
+                resume="https://drive.google.com/file/d/1t0ALs88VMbUbfyow-y9Em3gvhxgwEjaG/view?usp=sharing"
                 target="_blank"
               >
                 Resume
